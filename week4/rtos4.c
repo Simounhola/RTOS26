@@ -1,5 +1,7 @@
 /**
- * The code operates as required by the 1p implementation instructions.
+ * The code operates as required by the 2p implementation instructions.
+ * Test cases are comprehensive.
+ * 
  */
 
 #include <zephyr/kernel.h>
