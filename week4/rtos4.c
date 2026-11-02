@@ -3,7 +3,6 @@
  * Test cases are comprehensive.
  * 
  */
-
 #include <zephyr/kernel.h>
 #include <zephyr/sys/printk.h>
 #include <zephyr/device.h>
@@ -82,9 +81,7 @@ K_WORK_DEFINE(timer_work, timer_work_handler);
 
 // FIFO dispatcher data type
 struct data_t {
-	/*************************
-	// Add fifo_reserved below
-	*************************/
+	
 	void *fifo_reserved;
 	char msg[20];
 	uint64_t time;
